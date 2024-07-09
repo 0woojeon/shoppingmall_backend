@@ -3,8 +3,8 @@ spring:
     activate:
       on-profile: prod
   datasource:
-    username: root
-    password: 12341234
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
     driver-class-name: org.mariadb.jdbc.Driver # MariaDB JDBC 드라이버로 변경
     url: jdbc:mariadb://database-1.cnwww22qqvom.ap-northeast-2.rds.amazonaws.com:3306/supercoding_project2?useUnicode=true&characterEncoding=UTF-8 # jdbc:mysql -> jdbc:mariadb로 변경
   mvc:
