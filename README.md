@@ -2,7 +2,6 @@ Swagger UI
 http://3.37.22.98:8080/swagger-ui/index.html
 
 
-*현재 Swagger 내부에서 물품 등록 , 물품 수정 기능이 작동이 안됩니다 . (value값 형태 문제) postman에서는 정상작동 되니,  postman에서 물품 등록 , 수정 해주시고 다른 기능은 swagger에서 부탁드립니다 !*
 
 <User>
 
